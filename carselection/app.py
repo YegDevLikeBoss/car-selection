@@ -12,6 +12,14 @@ def create_app():
     return app
 
 def register_routes(app):
-    @app.route("/")
-    def hello():
-        return "ok", 200
+    @app.route("/", methods = ['GET'])
+    def make():
+        pass
+
+    @app.route("/<make>", methods = ['GET'])
+    def model(make):
+        pass
+
+    @app.route("/<make>/<model>/<int:year>", methods = ['GET'])
+    def car(make, model, year):
+        pass

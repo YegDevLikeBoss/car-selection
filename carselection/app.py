@@ -6,6 +6,7 @@ from flask_marshmallow import Marshmallow
 from .settings import Config
 from .models import Makes, Cars
 from .schemas import MakeSummary, Make, Car
+from .recommender import recommend
 
 make_summary = MakeSummary()
 make_schema = Make()
@@ -39,5 +40,6 @@ def register_routes(app):
         car = list(filter(lambda c: c.model==model, cars.models))[0]
         if car == None:
             abort(404)
-        print(car.model)
+        recommendation = recommend(str(car.id))
+        car.recommended = [Cars.objects(id=car[0]).first() for car in recommendation]
         return car_schema.dump(car), 200

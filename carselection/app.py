@@ -4,10 +4,12 @@ from flask_mongoengine import MongoEngine
 from flask_marshmallow import Marshmallow
 
 from .settings import Config
-from .models import Makes
-from .schemas import MakeSummary
+from .models import Makes, Cars
+from .schemas import MakeSummary, Make, Car
 
 make_summary = MakeSummary()
+make_schema = Make()
+car_schema = Car()
 
 def create_app(config_object=Config):
     app = Flask(__name__)
@@ -29,8 +31,13 @@ def register_routes(app):
         make = Makes.objects(name=make).first()
         if make == None:
             raise abort(404)
-        return make_summary.dump(make), 200
+        return make_schema.dump(make), 200
 
-    @app.route("/<make>/<model>/<int:year>", methods = ['GET'])
-    def car(make, model, year):
-        pass
+    @app.route("/<make>/<model>", methods = ['GET'])
+    def car(make, model):
+        cars = Makes.objects(name=make).first()
+        car = list(filter(lambda c: c.model==model, cars.models))[0]
+        if car == None:
+            abort(404)
+        print(car.model)
+        return car_schema.dump(car), 200

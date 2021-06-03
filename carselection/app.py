@@ -6,7 +6,7 @@ from flask_marshmallow import Marshmallow
 from .settings import Config
 from .models import Makes, Cars
 from .schemas import MakeSummary, Make, Car
-from .recommender import recommend
+from recommender.model import recommend
 
 make_summary = MakeSummary()
 make_schema = Make()

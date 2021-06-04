@@ -9,6 +9,10 @@ flask-cors = "*"
 flask-mongoengine = "*"
 flask-marshmallow = "*"
 gunicorn = "*"
+gensim = "*"
+pandas = "*"
+tdqm = "*"
+openpyxl = "*"
 
 [dev-packages]
 

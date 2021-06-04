@@ -43,3 +43,12 @@ def register_routes(app):
         recommendation = recommend(str(car.id))
         car.recommended = [Cars.objects(id=car[0]).first() for car in recommendation]
         return car_schema.dump(car), 200
+
+    @app.route("/car/<id>", methods = ['GET'])
+    def car_by_id(id):
+        car = Cars.objects(id=id).first()
+        if car == None:
+            abort(404)
+        recommendation = recommend(str(car.id))
+        car.recommended = [Cars.objects(id=car[0]).first() for car in recommendation]
+        return car_schema.dump(car)

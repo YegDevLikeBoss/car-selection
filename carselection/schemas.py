@@ -5,6 +5,7 @@ class MakeSummary(ma.Schema):
     image_url = ma.fields.String()
 
 class Car(ma.Schema):
+    id = ma.fields.String()
     model = ma.fields.String()
     image_url = ma.fields.String()
     recommended = ma.fields.List(ma.fields.Nested('Car'))

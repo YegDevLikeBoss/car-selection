@@ -1,0 +1,394 @@
+[{
+  "_id": {
+    "$oid": "60b89e9e29867ae49c2b13c4"
+  },
+  "name": "Opel",
+  "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F11%2FOpel_logo.svg%2F1280px-Opel_logo.svg.png&f=1&nofb=1",
+  "models": [
+    {
+      "$oid": "60b8a7936e3688f86bffde0b"
+    },
+    {
+      "$oid": "60b8ad0b3c396a24889cc015"
+    },
+    {
+      "$oid": "60b8acc83c396a24889cc014"
+    },
+    {
+      "$oid": "60b8ac993c396a24889cc013"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a1563c396a24889cc004"
+  },
+  "name": "VW",
+  "image_url": "http://3.bp.blogspot.com/_6HbVt0MKcR8/TSx_1zEt8BI/AAAAAAAAAK0/8_uftGCgZog/s1600/Logo_Volkswagen.png",
+  "models": [
+    {
+      "$oid": "60b8aefb3c396a24889cc01b"
+    },
+    {
+      "$oid": "60b8aec53c396a24889cc01a"
+    },
+    {
+      "$oid": "60b8ae4b3c396a24889cc019"
+    },
+    {
+      "$oid": "60b8adf73c396a24889cc018"
+    },
+    {
+      "$oid": "60b8adbc3c396a24889cc017"
+    },
+    {
+      "$oid": "60b8ad823c396a24889cc016"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a1963c396a24889cc005"
+  },
+  "name": "BMW",
+  "image_url": "https://www.carlogos.org/car-logos/bmw-logo-2020-grey.png",
+  "models": [
+    {
+      "$oid": "60b8cb4c964dc82ac80598fe"
+    },
+    {
+      "$oid": "60b8cb2e964dc82ac80598fd"
+    },
+    {
+      "$oid": "60b8cb0b964dc82ac80598fc"
+    },
+    {
+      "$oid": "60b8caf7964dc82ac80598fb"
+    },
+    {
+      "$oid": "60b8cada964dc82ac80598fa"
+    },
+    {
+      "$oid": "60b8cab9964dc82ac80598f9"
+    },
+    {
+      "$oid": "60b8ca9a964dc82ac80598f8"
+    },
+    {
+      "$oid": "60b8ca63964dc82ac80598f7"
+    },
+    {
+      "$oid": "60b8ca4a964dc82ac80598f6"
+    },
+    {
+      "$oid": "60b8ca30964dc82ac80598f5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a1e33c396a24889cc006"
+  },
+  "name": "Mercedes-benz",
+  "image_url": "https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-1-logo-png-transparent.png",
+  "models": [
+    {
+      "$oid": "60b8c8a3964dc82ac80598f4"
+    },
+    {
+      "$oid": "60b8c85f964dc82ac80598f3"
+    },
+    {
+      "$oid": "60b8c842964dc82ac80598f2"
+    },
+    {
+      "$oid": "60b8c81b964dc82ac80598f1"
+    },
+    {
+      "$oid": "60b8c7ee964dc82ac80598f0"
+    },
+    {
+      "$oid": "60b8c7c5964dc82ac80598ef"
+    },
+    {
+      "$oid": "60b8c7a5964dc82ac80598ee"
+    },
+    {
+      "$oid": "60b8c784964dc82ac80598ed"
+    },
+    {
+      "$oid": "60b8c74c964dc82ac80598ec"
+    },
+    {
+      "$oid": "60b8c72e964dc82ac80598eb"
+    },
+    {
+      "$oid": "60b8c714964dc82ac80598ea"
+    },
+    {
+      "$oid": "60b8c6de964dc82ac80598e9"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a2933c396a24889cc007"
+  },
+  "name": "Audi",
+  "image_url": "https://automarken-logos.com/wp-content/uploads/2017/11/audi-symbol-585x329.png",
+  "models": [
+    {
+      "$oid": "60b8c3a8964dc82ac80598e8"
+    },
+    {
+      "$oid": "60b8c314964dc82ac80598e6"
+    },
+    {
+      "$oid": "60b8c25e964dc82ac80598e5"
+    },
+    {
+      "$oid": "60b8c21b964dc82ac80598e4"
+    },
+    {
+      "$oid": "60b8c1f5964dc82ac80598e3"
+    },
+    {
+      "$oid": "60b8c1bb964dc82ac80598e2"
+    },
+    {
+      "$oid": "60b8c172964dc82ac80598e1"
+    },
+    {
+      "$oid": "60b8c11f964dc82ac80598e0"
+    },
+    {
+      "$oid": "60b8bef2964dc82ac80598df"
+    },
+    {
+      "$oid": "60b8bec9964dc82ac80598de"
+    },
+    {
+      "$oid": "60b8be8c964dc82ac80598dd"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a31c3c396a24889cc008"
+  },
+  "name": "Porsche",
+  "image_url": "https://cdn.freebiesupply.com/logos/large/2x/porsche-6-logo-png-transparent.png",
+  "models": [
+    {
+      "$oid": "60b8ccf2964dc82ac8059903"
+    },
+    {
+      "$oid": "60b8ccd0964dc82ac8059902"
+    },
+    {
+      "$oid": "60b8cca6964dc82ac8059901"
+    },
+    {
+      "$oid": "60b8cc7d964dc82ac8059900"
+    },
+    {
+      "$oid": "60b8cc53964dc82ac80598ff"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a36f3c396a24889cc009"
+  },
+  "name": "Toyota",
+  "image_url": "http://logo-logos.com/wp-content/uploads/2016/11/Toyota_symbol_logo.png",
+  "models": [
+    {
+      "$oid": "60b8cf9e964dc82ac805990a"
+    },
+    {
+      "$oid": "60b8ceff964dc82ac8059909"
+    },
+    {
+      "$oid": "60b8d949964dc82ac8059933"
+    },
+    {
+      "$oid": "60b8cec8964dc82ac8059908"
+    },
+    {
+      "$oid": "60b8ce7e964dc82ac8059907"
+    },
+    {
+      "$oid": "60b8ce39964dc82ac8059906"
+    },
+    {
+      "$oid": "60b8ce18964dc82ac8059905"
+    },
+    {
+      "$oid": "60b8cdf8964dc82ac8059904"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a3a53c396a24889cc00a"
+  },
+  "name": "Nissan",
+  "image_url": "http://1.bp.blogspot.com/-XmjU2gE_I7o/VZAV_NPQOvI/AAAAAAAADBA/I4GX7I-LbZk/s1600/Nissan-Black-white-vector-logo.png",
+  "models": [
+    "60b8d47c964dc82ac8059919",
+    "60b8d9dc964dc82ac8059934",
+    "60b8d43b964dc82ac8059918",
+    "60b8d40b964dc82ac8059917",
+    "60b8d3e7964dc82ac8059916",
+    "60b8d3c8964dc82ac8059915",
+    "60b8d39d964dc82ac8059914"
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a3da3c396a24889cc00b"
+  },
+  "name": "Honda",
+  "image_url": "http://www.pngmart.com/files/1/Honda-Logo-PNG.png",
+  "models": [
+    {
+      "$oid": "60b8d0b2964dc82ac805990b"
+    },
+    {
+      "$oid": "60b8d0f5964dc82ac805990c"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a42e3c396a24889cc00c"
+  },
+  "name": "Mazda",
+  "image_url": "http://1.bp.blogspot.com/-7cTXIGgAHh4/VVA4cBRR49I/AAAAAAAACXM/S-UiXSZqmuk/s1600/Mazda-logo-vector.png",
+  "models": [
+    {
+      "$oid": "60b8d2cb964dc82ac8059912"
+    },
+    {
+      "$oid": "60b8d2fb964dc82ac8059913"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a4823c396a24889cc00d"
+  },
+  "name": "Subaru",
+  "image_url": "http://www.carlogos.org/logo/Subaru-logo-2001-2560x1440.png",
+  "models": [
+    {
+      "$oid": "60b8d238964dc82ac8059911"
+    },
+    {
+      "$oid": "60b8d209964dc82ac8059910"
+    },
+    {
+      "$oid": "60b8d1de964dc82ac805990f"
+    },
+    {
+      "$oid": "60b8d1a9964dc82ac805990e"
+    },
+    {
+      "$oid": "60b8d17c964dc82ac805990d"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a4d23c396a24889cc00e"
+  },
+  "name": "Dodge",
+  "image_url": "https://clip2art.com/images/dodge-clipart-emblem-10.png",
+  "models": [
+    {
+      "$oid": "60b8d8d7964dc82ac8059931"
+    },
+    {
+      "$oid": "60b8d8f3964dc82ac8059932"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a4fa3c396a24889cc00f"
+  },
+  "name": "Ford",
+  "image_url": "https://cdn.freebiesupply.com/logos/thumbs/2x/ford-7-logo.png",
+  "models": [
+    {
+      "$oid": "60b8d8aa964dc82ac8059930"
+    },
+    {
+      "$oid": "60b8d88d964dc82ac805992f"
+    },
+    {
+      "$oid": "60b8d873964dc82ac805992e"
+    },
+    {
+      "$oid": "60b8d847964dc82ac805992d"
+    },
+    {
+      "$oid": "60b8d82c964dc82ac805992c"
+    },
+    {
+      "$oid": "60b8d7ff964dc82ac805992b"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a54d3c396a24889cc010"
+  },
+  "name": "Hyundai",
+  "image_url": "http://www.powerpage.org/wp-content/uploads/2015/12/Hyundai_Motor_Company_logo.svg_.png",
+  "models": [
+    "60b8d58f964dc82ac805991f",
+    "60b8d560964dc82ac805991e",
+    "60b8d542964dc82ac805991d",
+    "60b8d51e964dc82ac805991c",
+    "60b8d4f8964dc82ac805991b",
+    "60b8d4cf964dc82ac805991a"
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a5813c396a24889cc011"
+  },
+  "name": "Kia",
+  "image_url": "https://cdn.freebiesupply.com/logos/large/2x/kia-logo-png-transparent.png",
+  "models": [
+    {
+      "$oid": "60b8d7de964dc82ac805992a"
+    },
+    {
+      "$oid": "60b8d6f1964dc82ac8059927"
+    },
+    {
+      "$oid": "60b8d64f964dc82ac8059926"
+    },
+    {
+      "$oid": "60b8d64b964dc82ac8059925"
+    },
+    {
+      "$oid": "60b8d648964dc82ac8059924"
+    },
+    {
+      "$oid": "60b8d644964dc82ac8059923"
+    },
+    {
+      "$oid": "60b8d640964dc82ac8059922"
+    },
+    {
+      "$oid": "60b8d63c964dc82ac8059921"
+    },
+    {
+      "$oid": "60b8d619964dc82ac8059920"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60b8a5b03c396a24889cc012"
+  },
+  "name": "Lada",
+  "image_url": "https://www.carlogos.org/logo/Lada-logo-blue-1366x768.png",
+  "models": [
+    {
+      "$oid": "60b8d787964dc82ac8059929"
+    },
+    {
+      "$oid": "60b8d768964dc82ac8059928"
+    }
+  ]
+}]
